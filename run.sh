@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Monitor mode for job control, allows fg in the last line
 set -o monitor
