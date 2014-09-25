@@ -5,7 +5,7 @@ set -o monitor
 
 # Reads RabbitMQ environment and starts server in the backgroun
 source /etc/rabbitmq/rabbitmq-env.conf
-/usr/bin/rabbitmq-server &
+service rabbitmq-server start
 
 waits=1
 
